@@ -1,0 +1,45 @@
+
+
+article em { background-color: aqua; }
+
+nav ul li:first-child {
+    color: blueviolet;
+}
+
+article p + p {
+    color: darkorchid;
+}
+
+[title="textsnutt"]{
+   color: red;
+}
+
+[title="viktig paragraf"]{
+    color: red;
+ }
+ 
+ [title="mycket viktig text"]{
+    color: red;
+ }
+
+ #zebra :nth-of-type(2n) {
+    background-color: #99ccff;
+  }
+
+  ul li:last-child {
+    border-bottom: 2px solid;
+  }
+
+  #zebra :nth-of-type(2n + 1) {
+    background-color: #CCFF66;
+  }
+
+  h1{
+    font-feature-settings: "ss01";;
+
+  }
+
+  h3{
+    font-family: 'Roboto', sans-serif;
+  }
+
